@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+venv/
+
+# Chainlit runtime
+.chainlit/
+
+# Environment files
+.env
+*.env
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# finetune (large output)
+finetune-gpt2/results/
+finetune-gpt2/logs/
